@@ -1,0 +1,483 @@
+[
+  {
+    "id": "acct_01",
+    "name": "Northwind Analytics",
+    "arr": 84000,
+    "plan": "enterprise",
+    "health_score": 41,
+    "usage_30d": 120,
+    "usage_prev_30d": 210,
+    "days_to_renewal": 28,
+    "open_tickets": 7,
+    "csm_owner": "Ava Chen",
+    "recent_context": [
+      "Weekly active users fell after the March workflow redesign",
+      "Two P1 tickets still open on SSO session expiry",
+      "Last QBR: they asked about usage-based pricing"
+    ]
+  },
+  {
+    "id": "acct_02",
+    "name": "Harbor CRM",
+    "arr": 18600,
+    "plan": "pro",
+    "health_score": 88,
+    "usage_30d": 340,
+    "usage_prev_30d": 310,
+    "days_to_renewal": 142,
+    "open_tickets": 0,
+    "csm_owner": "Ava Chen",
+    "recent_context": [
+      "Rolled out to 3 new teams last month",
+      "Champion is presenting at their internal all-hands"
+    ]
+  },
+  {
+    "id": "acct_03",
+    "name": "Pebble Logistics",
+    "arr": 24000,
+    "plan": "pro",
+    "health_score": 36,
+    "usage_30d": 45,
+    "usage_prev_30d": 98,
+    "days_to_renewal": 19,
+    "open_tickets": 4,
+    "csm_owner": "Marcus Reid",
+    "recent_context": [
+      "Ops lead left 3 weeks ago; no new champion named",
+      "Invoice dispute on last expansion seat add"
+    ]
+  },
+  {
+    "id": "acct_04",
+    "name": "Lumen Health",
+    "arr": 120000,
+    "plan": "enterprise",
+    "health_score": 72,
+    "usage_30d": 890,
+    "usage_prev_30d": 870,
+    "days_to_renewal": 61,
+    "open_tickets": 1,
+    "csm_owner": "Priya Shah",
+    "recent_context": [
+      "Security review completed last week",
+      "Interested in audit-log export"
+    ]
+  },
+  {
+    "id": "acct_05",
+    "name": "Kite Retail",
+    "arr": 7200,
+    "plan": "starter",
+    "health_score": 29,
+    "usage_30d": 8,
+    "usage_prev_30d": 40,
+    "days_to_renewal": 12,
+    "open_tickets": 2,
+    "csm_owner": "Marcus Reid",
+    "recent_context": [
+      "Only one seat has logged in this month",
+      "Mentioned evaluating a cheaper tool"
+    ]
+  },
+  {
+    "id": "acct_06",
+    "name": "Orchid Finance",
+    "arr": 56000,
+    "plan": "enterprise",
+    "health_score": 54,
+    "usage_30d": 200,
+    "usage_prev_30d": 260,
+    "days_to_renewal": 44,
+    "open_tickets": 3,
+    "csm_owner": "Priya Shah",
+    "recent_context": [
+      "Compliance asked for a DPA addendum",
+      "Usage concentrated in one region"
+    ]
+  },
+  {
+    "id": "acct_07",
+    "name": "Cedar Studios",
+    "arr": 9600,
+    "plan": "starter",
+    "health_score": 91,
+    "usage_30d": 75,
+    "usage_prev_30d": 70,
+    "days_to_renewal": 200,
+    "open_tickets": 0,
+    "csm_owner": "Ava Chen",
+    "recent_context": [
+      "Founder is very engaged in Slack",
+      "Asked about the pro plan last week"
+    ]
+  },
+  {
+    "id": "acct_08",
+    "name": "Summit Legal",
+    "arr": 41000,
+    "plan": "pro",
+    "health_score": 33,
+    "usage_30d": 60,
+    "usage_prev_30d": 150,
+    "days_to_renewal": 9,
+    "open_tickets": 6,
+    "csm_owner": "Marcus Reid",
+    "recent_context": [
+      "Renewal conversation was postponed twice",
+      "Frustrated with search latency on large matters"
+    ]
+  },
+  {
+    "id": "acct_09",
+    "name": "Nimbus Education",
+    "arr": 15000,
+    "plan": "pro",
+    "health_score": null,
+    "usage_30d": 110,
+    "usage_prev_30d": 180,
+    "days_to_renewal": 33,
+    "open_tickets": 1,
+    "csm_owner": "Priya Shah",
+    "recent_context": [
+      "Health score job has not run for this tenant yet",
+      "Semester break starts in two weeks"
+    ]
+  },
+  {
+    "id": "acct_10",
+    "name": "Brassworks Manufacturing",
+    "arr": 67000,
+    "plan": "enterprise",
+    "health_score": 47,
+    "usage_30d": 310,
+    "usage_prev_30d": null,
+    "days_to_renewal": 22,
+    "open_tickets": 2,
+    "csm_owner": "Ava Chen",
+    "recent_context": [
+      "Prior usage window is missing after a data backfill",
+      "Plant manager wants shop-floor dashboards"
+    ]
+  },
+  {
+    "id": "acct_11",
+    "name": "Willow Clinics",
+    "arr": 29000,
+    "plan": "pro",
+    "health_score": 62,
+    "usage_30d": 140,
+    "usage_prev_30d": 155,
+    "days_to_renewal": 88,
+    "open_tickets": 0,
+    "csm_owner": "Priya Shah",
+    "recent_context": [
+      "Stable usage, no open issues",
+      "New clinic opening in June"
+    ]
+  },
+  {
+    "id": "acct_12",
+    "name": "Redwood Media",
+    "arr": 13200,
+    "plan": "starter",
+    "health_score": 38,
+    "usage_30d": 22,
+    "usage_prev_30d": 61,
+    "days_to_renewal": 40,
+    "open_tickets": 5,
+    "csm_owner": "Marcus Reid",
+    "recent_context": [
+      "Creative team says onboarding never finished",
+      "Four tickets about export limits"
+    ]
+  },
+  {
+    "id": "acct_13",
+    "name": "Atlas Freight",
+    "arr": 98000,
+    "plan": "enterprise",
+    "health_score": 25,
+    "usage_30d": 90,
+    "usage_prev_30d": 240,
+    "days_to_renewal": 16,
+    "open_tickets": 9,
+    "csm_owner": "Ava Chen",
+    "recent_context": [
+      "Integration with their TMS broke after the last release",
+      "CFO asked for a usage report before renewal"
+    ]
+  },
+  {
+    "id": "acct_14",
+    "name": "Folio Insurance",
+    "arr": 45000,
+    "plan": "pro",
+    "health_score": 80,
+    "usage_30d": 400,
+    "usage_prev_30d": 390,
+    "days_to_renewal": 5,
+    "open_tickets": 0,
+    "csm_owner": "Priya Shah",
+    "recent_context": [
+      "Renewal is a formality; legal already has the paper",
+      "They want a multi-year deal"
+    ]
+  },
+  {
+    "id": "acct_15",
+    "name": "Cinder Apps",
+    "arr": 5400,
+    "plan": "starter",
+    "health_score": 18,
+    "usage_30d": 2,
+    "usage_prev_30d": 19,
+    "days_to_renewal": 7,
+    "open_tickets": 1,
+    "csm_owner": "Marcus Reid",
+    "recent_context": [
+      "Founder stopped responding to emails",
+      "Last login 21 days ago"
+    ]
+  },
+  {
+    "id": "acct_16",
+    "name": "Glacier Bank",
+    "arr": 210000,
+    "plan": "enterprise",
+    "health_score": 68,
+    "usage_30d": 1200,
+    "usage_prev_30d": 1180,
+    "days_to_renewal": 110,
+    "open_tickets": 2,
+    "csm_owner": "Priya Shah",
+    "recent_context": [
+      "Procurement cycle is long but relationship is strong",
+      "Requested SOC 2 update"
+    ]
+  },
+  {
+    "id": "acct_17",
+    "name": "Marrow Biotech",
+    "arr": 36000,
+    "plan": "pro",
+    "health_score": 44,
+    "usage_30d": 70,
+    "usage_prev_30d": 130,
+    "days_to_renewal": 51,
+    "open_tickets": 3,
+    "csm_owner": "Ava Chen",
+    "recent_context": [
+      "Lab team paused a trial; expect usage to rebound",
+      "Need HIPAA BA update"
+    ]
+  },
+  {
+    "id": "acct_18",
+    "name": "Pixel & Grain",
+    "arr": 8100,
+    "plan": "starter",
+    "health_score": 77,
+    "usage_30d": 50,
+    "usage_prev_30d": 48,
+    "days_to_renewal": 170,
+    "open_tickets": 0,
+    "csm_owner": "Marcus Reid",
+    "recent_context": [
+      "Happy on starter",
+      "Referred a sister agency"
+    ]
+  },
+  {
+    "id": "acct_19",
+    "name": "Ironclad Security",
+    "arr": 73000,
+    "plan": "enterprise",
+    "health_score": 39,
+    "usage_30d": 160,
+    "usage_prev_30d": 300,
+    "days_to_renewal": 27,
+    "open_tickets": 8,
+    "csm_owner": "Ava Chen",
+    "recent_context": [
+      "Failed a tabletop exercise using our alerts",
+      "CISO wants a call before renewal"
+    ]
+  },
+  {
+    "id": "acct_20",
+    "name": "Saffron Grocery",
+    "arr": 19800,
+    "plan": "pro",
+    "health_score": 58,
+    "usage_30d": 95,
+    "usage_prev_30d": 140,
+    "days_to_renewal": -4,
+    "open_tickets": 1,
+    "csm_owner": "Marcus Reid",
+    "recent_context": [
+      "Contract is already past renewal; still paying month-to-month",
+      "Store ops director is on leave"
+    ]
+  },
+  {
+    "id": "acct_21",
+    "name": "Quill Publishing",
+    "arr": 22000,
+    "plan": "pro",
+    "health_score": 49,
+    "usage_30d": 80,
+    "usage_prev_30d": 120,
+    "days_to_renewal": 35,
+    "open_tickets": 2,
+    "csm_owner": "Priya Shah",
+    "recent_context": [
+      "Editors like the product; finance is asking for a discount",
+      "One integration owner left"
+    ]
+  },
+  {
+    "id": "acct_22",
+    "name": "Boreal Energy",
+    "arr": 155000,
+    "plan": "enterprise",
+    "health_score": 31,
+    "usage_30d": 220,
+    "usage_prev_30d": 410,
+    "days_to_renewal": 14,
+    "open_tickets": 11,
+    "csm_owner": "Ava Chen",
+    "recent_context": [
+      "Outage last month hit their field teams",
+      "Legal is reviewing whether to dual-source"
+    ]
+  },
+  {
+    "id": "acct_23",
+    "name": "Hearth Home",
+    "arr": 11000,
+    "plan": "starter",
+    "health_score": 64,
+    "usage_30d": 40,
+    "usage_prev_30d": 42,
+    "days_to_renewal": 95,
+    "open_tickets": 0,
+    "csm_owner": "Marcus Reid",
+    "recent_context": [
+      "Small but consistent",
+      "Asked how to invite contractors"
+    ]
+  },
+  {
+    "id": "acct_24",
+    "name": "Vesper Hotels",
+    "arr": 52000,
+    "plan": "enterprise",
+    "health_score": 52,
+    "usage_30d": 180,
+    "usage_prev_30d": 250,
+    "days_to_renewal": 38,
+    "open_tickets": 4,
+    "csm_owner": "Priya Shah",
+    "recent_context": [
+      "Seasonal dip in guest-ops usage is expected",
+      "Brand lead wants a property-level rollup"
+    ]
+  },
+  {
+    "id": "acct_25",
+    "name": "Copperline Transit",
+    "arr": 31000,
+    "plan": "pro",
+    "health_score": 27,
+    "usage_30d": 30,
+    "usage_prev_30d": 95,
+    "days_to_renewal": 21,
+    "open_tickets": 6,
+    "csm_owner": "Marcus Reid",
+    "recent_context": [
+      "Dispatch team reverted to spreadsheets",
+      "Training session was a no-show"
+    ]
+  },
+  {
+    "id": "acct_26",
+    "name": "Lantern Non-Profit",
+    "arr": 4800,
+    "plan": "starter",
+    "health_score": 70,
+    "usage_30d": 18,
+    "usage_prev_30d": 17,
+    "days_to_renewal": 60,
+    "open_tickets": 0,
+    "csm_owner": "Ava Chen",
+    "recent_context": [
+      "Grant-funded; budget is tight but they like the product",
+      "Volunteer coordinator is the only user"
+    ]
+  },
+  {
+    "id": "acct_27",
+    "name": "Osprey Aviation",
+    "arr": 88000,
+    "plan": "enterprise",
+    "health_score": 43,
+    "usage_30d": 150,
+    "usage_prev_30d": 280,
+    "days_to_renewal": 11,
+    "open_tickets": 5,
+    "csm_owner": "Priya Shah",
+    "recent_context": [
+      "Maintenance module adoption stalled",
+      "Asked for a usage credit after downtime"
+    ]
+  },
+  {
+    "id": "acct_28",
+    "name": "Fieldnote Agriculture",
+    "arr": 17500,
+    "plan": "pro",
+    "health_score": 85,
+    "usage_30d": 210,
+    "usage_prev_30d": 190,
+    "days_to_renewal": 130,
+    "open_tickets": 0,
+    "csm_owner": "Marcus Reid",
+    "recent_context": [
+      "Harvest season, usage is up",
+      "Wanted mobile offline mode"
+    ]
+  },
+  {
+    "id": "acct_29",
+    "name": "Marble Civic",
+    "arr": 64000,
+    "plan": "enterprise",
+    "health_score": 35,
+    "usage_30d": 55,
+    "usage_prev_30d": 140,
+    "days_to_renewal": 30,
+    "open_tickets": 3,
+    "csm_owner": "Ava Chen",
+    "recent_context": [
+      "City procurement is re-bidding the category",
+      "Champion is retiring in June"
+    ]
+  },
+  {
+    "id": "acct_30",
+    "name": "Driftwood Travel",
+    "arr": 14000,
+    "plan": "pro",
+    "health_score": 60,
+    "usage_30d": 100,
+    "usage_prev_30d": 100,
+    "days_to_renewal": 75,
+    "open_tickets": 1,
+    "csm_owner": "Priya Shah",
+    "recent_context": [
+      "Flat usage, one low-priority ticket",
+      "Interested in a partner integration"
+    ]
+  }
+]
