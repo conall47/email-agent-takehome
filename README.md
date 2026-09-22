@@ -6,6 +6,15 @@ Build a **customer-success email agent**. A CSM sets **rules** (who to email) an
 
 This is not a chatbot.
 
+## How this is wired
+
+Everything runs on **your laptop**. This API is a small FastAPI app in `backend/`. It does **not** talk to Dyle, Gmail, or any of our servers.
+
+- Accounts come from `data/accounts.json` (a file in this repo).
+- Agents and drafts are stored in memory in the API process.
+- Your UI should call `http://localhost:8000` (see `/docs` once the server is up).
+- The only thing that may call the internet is **you**, if you use an LLM for `execute`. No API key? Stub that function and still do evaluate + the UI.
+
 ## What you ship
 
 A CSM should be able to:
